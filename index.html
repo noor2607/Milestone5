@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><center>Dynamic Resume Builder</center></h1>
+    <form id="resumeForm">
+        <fieldset class="fieldset">
+            <legend><h2>Personal Information</h2></legend>
+            <h3>Name:
+                <input type="text" id="name" name="name" required>
+            </h3>
+            <h3>Email:
+                <input type="email" id="email" name="email" required>
+            </h3>
+            <h3>Contact No:
+                <input type="tel" id="contact" name="contact" required>
+            </h3>
+            <h3>Profile Picture:
+                <input type="file" id="profile" name="profile" accept="image/*" required>
+            </h3>
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend><h2>Education:</h2></legend>
+            <h3>Education:</h3>
+            <textarea name="education" id="education" rows="4"></textarea>
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend><h2>Skills</h2></legend>
+            <h3>Skills:</h3>
+            <textarea name="skills" id="skills" rows="4" required></textarea>
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend><h2>Work Experience:</h2></legend>
+            <h3>Work Experience:</h3>
+            <textarea name="work" id="work" rows="4" required></textarea>
+        </fieldset>
+        <button type="submit">Generate</button>
+    </form>
+    <div id="resumeOutput"></div>
+    <div id="shareableLink" style="display:none;">
+        <p>Shareable Link: <a id="shareableLinkElement" href="#" target="_blank"></a></p>
+    </div>
+    <button id="downloadpdf">Download PDF</button>
+    <script src="script.js"></script>
+</body>
+</html>

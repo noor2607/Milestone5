@@ -1,0 +1,121 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(238, 238, 213);
+    margin: 20px;
+    padding: 0;
+}
+
+form {
+    max-width: 650px;
+    padding: 20px;
+    color: rgb(107, 70, 23);
+    background-color: lightgoldenrodyellow;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: rgb(97, 60, 60);
+    padding-top: 20px;
+}
+
+fieldset {
+    border: 2px solid rgb(161, 157, 157);
+    border-radius: 6px;
+    background-color: rgb(235, 235, 190);
+}
+
+h3 {
+    font-size: 20px;
+}
+
+legend {
+    color: rgb(97, 60, 60);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+textarea {
+    width: calc(100%);
+    padding-bottom: 40px;
+}
+
+input {
+    height: 20px;
+}
+
+button {
+    width: 300px;
+    margin-top: 15px;
+    height: 40px;
+    border: 2px solid rgb(161, 157, 157);
+    border-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    background-color: rgb(235, 235, 190);
+    cursor: pointer;
+}
+
+#shareableLink {
+    width: 670px;
+    margin-top: 15px;
+    height: 40px;
+    border: 2px solid rgb(161, 157, 157);
+    border-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    background-color: rgb(235, 235, 190);
+    cursor: pointer;
+    text-align: center;
+    margin-left: 310px;
+}
+    
+
+
+#shareableLink a {
+    color: rgb(97, 60, 60);
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    
+}
+
+#downloadpdf {
+    width: 670px;
+    margin-top: 15px;
+    height: 40px;
+    border: 2px solid rgb(161, 157, 157);
+    border-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    background-color: rgb(235, 235, 190);
+    cursor: pointer;
+    margin-left: 310px;
+}
+
+#resumeOutput {
+    max-width: 650px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(161, 157, 157);
+    border-radius: 8px;
+    background-color: rgb(235, 235, 190);
+    box-shadow: 0 4px 8px rgb(161, 157, 157);
+}
+
+#resumeOutput h2 {
+    color: rgb(161, 157, 157);
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    border: 2px solid rgb(161, 157, 157);
+    box-shadow: 0 4px 8px rgb(97, 60, 60);
+    object-fit: cover;
+}
